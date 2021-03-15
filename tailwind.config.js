@@ -13,6 +13,24 @@ module.exports = {
       "2xl": "1536px",
     },
     colors: {
+      // Primary
+      "light-red": "#ff525d", // CTA text
+      "very-light-red": "#ff7a85", // CTA hover background
+      "very-dark-blue": "#1f3f5b", // headings
+
+      // Neutral
+      "grayish-blue": "#c8c8cb", // footer text
+      "very-dark-grayish-blue": "#4b5862", // body copy
+      "very-dark-black-blue": "#25252d", // footer background
+
+      // Background gradient - Intro/CTA mobile nav
+      "Very-light-red": "#ff8f70",
+      "Light-red": "#ff3d54",
+
+      // Background gradient - body
+      "very-dark-gray-blue": "#2c2d3f",
+      "very-dark-desaturated-blue": "#3f4164",
+
       transparent: "transparent",
       current: "currentColor",
 
@@ -171,7 +189,8 @@ module.exports = {
       DEFAULT: "1",
     },
     fontFamily: {
-      sans: [
+      overpass: [
+        "Overpass",
         "ui-sans-serif",
         "system-ui",
         "-apple-system",
@@ -187,23 +206,22 @@ module.exports = {
         '"Segoe UI Symbol"',
         '"Noto Color Emoji"',
       ],
-      serif: [
-        "ui-serif",
-        "Georgia",
-        "Cambria",
-        '"Times New Roman"',
-        "Times",
-        "serif",
-      ],
-      mono: [
-        "ui-monospace",
-        "SFMono-Regular",
-        "Menlo",
-        "Monaco",
-        "Consolas",
-        '"Liberation Mono"',
-        '"Courier New"',
-        "monospace",
+      ubuntu: [
+        "Ubuntu",
+        "ui-sans-serif",
+        "system-ui",
+        "-apple-system",
+        "BlinkMacSystemFont",
+        '"Segoe UI"',
+        "Roboto",
+        '"Helvetica Neue"',
+        "Arial",
+        '"Noto Sans"',
+        "sans-serif",
+        '"Apple Color Emoji"',
+        '"Segoe UI Emoji"',
+        '"Segoe UI Symbol"',
+        '"Noto Color Emoji"',
       ],
     },
     fontSize: {
