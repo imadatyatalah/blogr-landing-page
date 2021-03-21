@@ -1,5 +1,13 @@
+import Head from "next/head";
+
 const Home = () => {
-  return <></>;
+  return (
+    <>
+      <Head>
+        <title>Frontend Mentor | Blogr</title>
+      </Head>
+    </>
+  );
 };
 
 export default Home;
