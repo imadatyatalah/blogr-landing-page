@@ -1,3 +1,5 @@
+import Global from "../layouts/global";
+
 // Overpass font
 import "@fontsource/overpass/latin-300.css";
 import "@fontsource/overpass/latin-600.css";
@@ -11,7 +13,9 @@ import "../styles/index.css";
 
 const MyApp = ({ Component, pageProps }) => (
   <>
-    <Component {...pageProps} />
+    <Global>
+      <Component {...pageProps} />
+    </Global>
   </>
 );
 
